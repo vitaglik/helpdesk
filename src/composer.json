@@ -1,0 +1,19 @@
+{
+    "name": "panteleymonov/helpdesk",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitaliy Panteleymonov"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^8.0",
+      "ext-http": "*"
+    }
+}
